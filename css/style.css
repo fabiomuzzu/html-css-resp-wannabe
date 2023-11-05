@@ -153,12 +153,25 @@ img {
         align-items: center;
         margin: 3rem 0;
     }
+    
+    .lessons .col{
+        width: 100%;
+    }
+
+    .lessons p{
+        margin-bottom: 3rem;
+    }
 
     .steps{
         min-width: 400px;
         margin: 0;
         padding: 5rem 0;
     }
+
+    .steps .col{
+        width: 100%;
+    }
+
 
     h1{
         min-width: 400px;
@@ -170,8 +183,17 @@ img {
         padding: 5rem 0;
     }
 
+    .why-us .col-right {
+        width: 90%;
+        margin: 5rem 0;
+    }
+
     img{
         padding: 70px 0;
-        transform: scale(2);
+        transform: scale(3);
+    }
+
+    .steps .col img {
+        margin: 4rem 0;
     }
 }
