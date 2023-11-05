@@ -125,8 +125,13 @@ img {
 }
 
 /************************************************
-    SOLUZIONE RESPONSIVE
+SOLUZIONE RESPONSIVE
 ************************************************/
+@media screen and (max-width: 1140px){
+    body{
+        min-width: max-content;
+    }
+}
 
 @media screen and (max-width: 768px){
     .container{
@@ -140,6 +145,7 @@ img {
     h1{
         min-width: 700px;
     }
+
 }
 
 @media screen and (max-width: 480px){
@@ -196,4 +202,5 @@ img {
     .steps .col img {
         margin: 4rem 0;
     }
+
 }
